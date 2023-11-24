@@ -9,7 +9,7 @@ body {
   width: 100vw;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0px 30px;
+  padding: 0px 15px;
 }
 .box {
   display: flex;
@@ -161,7 +161,52 @@ header {
   width: 15%;
   height: 330px;
 }
+.videos {
+  padding: 50px 15px 0px;
+  margin: 60px -15px 0px;
+  background-color: #1a1a1a;
+}
+.video-title {
+  margin-bottom: 20px;
+}
+.video-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+.video {
+  height: 262px;
+}
+footer {
+  padding: 50px 0px;
+  text-align: center;
+}
+.abouts {
+  padding-bottom: 50px;
+  border-bottom: 1px solid grey;
+}
+.about-logo {
+  margin-bottom: 40px;
+}
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.about-item {
+  margin: 0px 0px 10px 30px;
+  width: fit-content;
+}
+.socials {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 30px;
+}
 @media (min-width: 640px) {
+  .container {
+    padding: 0px 30px;
+  }
   .story {
     width: 33.3%;
   }
@@ -173,8 +218,33 @@ header {
     grid-column-end: 3;
     grid-column-start: 1;
   }
+  .video-item {
+    grid-template-columns: 1fr 1fr;
+  }
+  .videos {
+    padding: 50px 30px 0px;
+    margin: 60px -30px 0px;
+  }
+  .video {
+    padding-bottom: 50px;
+  }
+
+  .abouts {
+    display: flex;
+  }
+
+  .socials {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .about {
+    justify-content: right;
+  }
 }
 @media (min-width: 960px) {
+  .container {
+    padding: 0px 40px;
+  }
   .logo {
     width: 120px;
   }
@@ -248,5 +318,15 @@ header {
   }
   .comic {
     width: 14.6%;
+  }
+  .video-item {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .videos {
+    padding: 50px 40px 0px;
+    margin: 60px -40px 0px;
+  }
+  .video {
+    height: 323px;
   }
 }
