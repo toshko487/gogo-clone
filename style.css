@@ -149,16 +149,15 @@ header {
   height: 300px;
 }
 .comic-scroll {
-  max-width: 1200px;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 .comics {
   display: flex;
   gap: 15px;
-  width: 4000px;
+  width: 10000px;
 }
 .comic {
-  width: 15%;
+  width: 100vh;
   height: 330px;
 }
 .videos {
@@ -217,6 +216,9 @@ footer {
     height: 400px;
     grid-column-end: 3;
     grid-column-start: 1;
+  }
+  .comic {
+    width: calc(50vw-37.5px);
   }
   .video-item {
     grid-template-columns: 1fr 1fr;
@@ -315,9 +317,6 @@ footer {
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 3;
-  }
-  .comic {
-    width: 14.6%;
   }
   .video-item {
     grid-template-columns: 1fr 1fr 1fr 1fr;
