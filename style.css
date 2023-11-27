@@ -27,7 +27,7 @@ header {
   padding-bottom: 20px;
 }
 .logo {
-  width: 90px;
+  width: 119px;
 }
 .menu {
   display: none;
@@ -157,7 +157,7 @@ header {
   width: 10000px;
 }
 .comic {
-  width: 100vh;
+  width: calc(100vw - 5px);
   height: 330px;
 }
 .videos {
@@ -218,7 +218,7 @@ footer {
     grid-column-start: 1;
   }
   .comic {
-    width: calc(50vw-37.5px);
+    width: calc(50vw - 15px);
   }
   .video-item {
     grid-template-columns: 1fr 1fr;
@@ -252,6 +252,8 @@ footer {
   }
   .menu {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     flex: 1;
   }
   .bar {
