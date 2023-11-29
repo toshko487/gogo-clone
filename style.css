@@ -13,6 +13,7 @@ body {
 header {
   display: flex;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 .logo img {
   width: 70px;
@@ -23,6 +24,22 @@ header {
 a:link {
   text-decoration: none;
 }
+.menu-title {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica neu, sans-serif;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.weather {
+  display: flex;
+  font-size: 12px;
+}
+
 @media (min-width: 960px) {
   .logo img {
     width: 119px;
