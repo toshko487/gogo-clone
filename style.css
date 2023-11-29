@@ -14,6 +14,10 @@ header {
   display: flex;
   margin-top: 30px;
   margin-bottom: 20px;
+  justify-content: space-between;
+}
+.header-l {
+  display: flex;
 }
 .logo img {
   width: 70px;
@@ -27,6 +31,7 @@ a:link {
 .menu-title {
   display: flex;
   align-items: center;
+  padding: 0px 15px;
   font-size: 16px;
   color: rgb(0, 0, 0);
   font-family: Arial, Helvetica neu, sans-serif;
@@ -34,10 +39,13 @@ a:link {
 .search {
   display: flex;
   align-items: center;
+  padding: 0px 15px;
 }
 .weather {
   display: flex;
   font-size: 12px;
+  height: 50px;
+  margin: ;
 }
 
 @media (min-width: 960px) {
