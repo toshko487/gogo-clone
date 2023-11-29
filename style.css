@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  padding: 0px 40px;
+  margin: auto;
+}
+header {
+  display: flex;
+  margin-top: 30px;
+}
+.logo img {
+  width: 70px;
+}
+.menu {
+  display: none;
+}
+a:link {
+  text-decoration: none;
+}
+@media (min-width: 960px) {
+  .logo img {
+    width: 119px;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+  }
+}
