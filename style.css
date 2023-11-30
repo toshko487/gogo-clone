@@ -5,12 +5,11 @@
 }
 header {
   display: flex;
-  margin-top: 30px;
-  margin-bottom: 20px;
   justify-content: space-between;
 }
 .header-l {
   display: flex;
+  align-items: start;
 }
 .logo img {
   width: 70px;
@@ -39,7 +38,7 @@ a:link {
   font-size: 12px;
   height: 50px;
 }
-.wheater-item-we {
+.wheater-item-indi {
   display: flex;
   align-items: center;
 }
