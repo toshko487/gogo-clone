@@ -22,11 +22,10 @@ body {
 }
 header {
   display: flex;
-  margin: 30px 0px 20px;
   gap: 20px;
 }
-.logo {
-  width: 119px;
+.logo img {
+  width: 70px;
 }
 .menu {
   display: none;
@@ -256,11 +255,14 @@ footer {
   }
 }
 @media (min-width: 960px) {
+  header {
+    margin: 30px 0px 20px;
+  }
   .container {
     padding: 0px 40px;
   }
-  .logo {
-    width: 120px;
+  .logo img {
+    width: 119px;
   }
   .menu {
     display: flex;
@@ -271,9 +273,9 @@ footer {
   .bar {
     display: none;
   }
-  /* .weather {
+  .weather {
     height: 50px;
-  } */
+  }
   .imformation-large-1 {
     display: flex;
     height: 385px;
