@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>GoGo clone</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./model.css" />
+    <link rel="stylesheet" href="./subtools.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -51,18 +53,20 @@
         </div>
         <div class="weather">
           <div class="weather-item">
-            Цаг агаар
-            <div>
-              <img
-                src="https://mgl.gogo.mn/newsn/v4/images/icon-cloud-sun.6212dc72.svg"
-                width="20"
-                alt=""
-              />
+            <div>Цаг агаар</div>
+            <div class="wheater-item-we">
+              <div>
+                <img
+                  src="https://mgl.gogo.mn/newsn/v4/images/icon-cloud-sun.6212dc72.svg"
+                  width="20"
+                  alt=""
+                />
+              </div>
+              <div>-18</div>
             </div>
-            <div></div>
           </div>
           <div class="weather-item">
-            Зурхай
+            <div>Зурхай</div>
             <div>
               <img
                 src="https://mgl.gogo.mn/newsn/v4/images/calendar-icon.ff84145b.svg"
@@ -71,7 +75,10 @@
               />
             </div>
           </div>
-          <div class="weather-item">Валютын ханш</div>
+          <div class="weather-item">
+            <div>Валютын ханш</div>
+            <span class="text-green">$</span>
+          </div>
         </div>
       </header>
     </div>

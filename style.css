@@ -1,10 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-  box-sizing: border-box;
-}
 .container {
   max-width: 1200px;
   padding: 0px 40px;
@@ -46,6 +39,10 @@ a:link {
   font-size: 12px;
   height: 50px;
   margin: ;
+}
+.wheater-item-we {
+  display: flex;
+  align-items: center;
 }
 
 @media (min-width: 960px) {
