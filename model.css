@@ -22,10 +22,12 @@ body {
 }
 header {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
 }
 .logo img {
   width: 70px;
+  margin: 3px 0px 0px;
+  padding: 10px;
 }
 .menu {
   display: none;
@@ -263,6 +265,8 @@ footer {
   }
   .logo img {
     width: 119px;
+    margin: 0;
+    padding: 0;
   }
   .menu {
     display: flex;
@@ -274,6 +278,7 @@ footer {
     display: none;
   }
   .weather {
+    flex: 0;
     height: 50px;
   }
   .imformation-large-1 {
