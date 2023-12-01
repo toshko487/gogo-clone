@@ -56,6 +56,28 @@ a:link {
 .text-green {
   color: #2adb00;
 }
+.imformation-large-1 {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.imformation-large-1-img {
+  position: absolute;
+}
+.imformation-large-1 img {
+  overflow: hidden;
+}
+.imformation-button {
+  background-image: linear-gradient(-120deg, #e08100, #c90027);
+  border-radius: 100px;
+  border: 0;
+  padding: 8px 15px;
+  transition: all 0.2s ease-in-out;
+}
+.imformation-button:hover {
+  padding: 8px 20px;
+}
 @media (min-width: 960px) {
   .logo {
     width: 119px;
@@ -80,5 +102,11 @@ a:link {
   }
   .weather-item-indi {
     font-size: 18px;
+  }
+  .imformation-large-1-img {
+    position: relative;
+  }
+  .imformation-large-1-img img {
+    height: 385px;
   }
 }
